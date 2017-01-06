@@ -1,0 +1,31 @@
+{
+  "name": "Redacted",
+  "version": "1.0.0",
+  "description": "One of your clients have contacted you with a problem. Their Users have figured out that their chat messages aren't filtered and they can say anything that they want. The CEO dislikes the slang terms being used on the internet and wants to implement a system which will remove certain words and replace them.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emortong/Redacted.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emortong/Redacted/issues"
+  },
+  "xo": {
+      "esnext": true,
+      "space": true,
+      "globals": [
+        "window"
+      ]
+    },
+  "homepage": "https://github.com/emortong/Redacted#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
